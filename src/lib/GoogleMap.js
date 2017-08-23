@@ -111,6 +111,8 @@ const publicMethodMap = {
   getTilt(map) { return map.getTilt(); },
 
   getZoom(map) { return map.getZoom(); },
+
+  getMap(map) { return map; },
   // END - Public APIs
   //
   // https://developers.google.com/maps/documentation/javascript/3.exp/reference#Map
